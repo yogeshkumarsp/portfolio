@@ -40,7 +40,7 @@
     --glow-secondary: 310 70% 60%;
 
     --gradient-primary: linear-gradient(135deg, hsl(270, 70%, 55%), hsl(290, 80%, 60%), hsl(310, 70%, 65%));
-    --gradient-hero: linear-gradient(135deg, hsl(260, 80%, 12%) 0%, hsl(270, 75%, 18%) 30%, hsl(285, 80%, 22%) 60%, hsl(300, 70%, 28%) 100%);
+    --gradient-hero: linear-gradient(135deg, #6A11CB 0%, #2575FC 100%);
     --gradient-subtle: linear-gradient(135deg, hsl(270, 40%, 97%), hsl(290, 35%, 96%));
     --gradient-glass: linear-gradient(135deg, hsla(270, 70%, 55%, 0.08), hsla(310, 70%, 65%, 0.04));
     --gradient-border: linear-gradient(135deg, hsl(270, 70%, 55%), hsl(310, 70%, 65%));
