@@ -200,29 +200,27 @@ const Hero = () => {
               </a>
             </motion.div>
 
-            {/* Stats - Redesigned for better visibility */}
+            {/* Stats */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 1.1, duration: 0.6 }}
-              className="mt-12 flex flex-wrap gap-5"
+              className="mt-12 flex gap-10"
             >
-              {stats.map((stat) => (
-                <motion.div 
-                  key={stat.label} 
-                  whileHover={{ y: -5, backgroundColor: "rgba(255, 255, 255, 0.15)" }}
-                  className="glass rounded-2xl px-6 py-4 border border-white/10 shadow-card flex flex-col justify-center min-w-[150px] transition-colors duration-300"
-                >
-                  <div className="text-3xl font-black font-display text-amber-400 drop-shadow-[0_2px_10px_rgba(251,191,36,0.2)]">
+              {stats.map((stat, i) => (
+              <div key={stat.label} className="relative">
+                  <div className="text-4xl font-extrabold font-display text-amber-400 drop-shadow-[0_2px_4px_rgba(0,0,0,0.3)]">
                     <AnimatedCounter value={stat.value} suffix={stat.suffix} />
                   </div>
-                  <div className="text-xs font-bold uppercase tracking-widest text-white/70 mt-1">
+                  <div className="text-sm font-medium text-white/80">
                     {stat.label}
                   </div>
-                </motion.div>
+                  {i < stats.length - 1 && (
+                    <div className="absolute -right-5 top-1/2 -translate-y-1/2 w-px h-8 bg-primary-foreground/15" />
+                  )}
+                </div>
               ))}
             </motion.div>
-
           </motion.div>
         </div>
       </div>
