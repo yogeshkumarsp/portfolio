@@ -154,7 +154,7 @@ const Hero = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5, duration: 0.6 }}
-              className="text-5xl sm:text-6xl lg:text-7xl font-black font-display text-primary-foreground leading-[1.1] tracking-tight"
+              className="text-5xl sm:text-6xl lg:text-7xl font-black font-display text-primary-foreground leading-[1.1] tracking-tight drop-shadow-md"
             >
               Hi, I'm Yogesh,
             </motion.h1>
@@ -173,7 +173,7 @@ const Hero = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.8, duration: 0.6 }}
-              className="mt-6 text-lg text-primary-foreground/70 max-w-lg leading-relaxed"
+              className="mt-6 text-lg text-primary-foreground/80 max-w-lg leading-relaxed drop-shadow-sm"
             >
               Transforming ideas into seamless, efficient web and backend systems
               that solve real-world problems and enhance user experience.
@@ -209,10 +209,10 @@ const Hero = () => {
             >
               {stats.map((stat, i) => (
               <div key={stat.label} className="relative">
-                  <div className="text-4xl font-extrabold font-display text-amber-400 drop-shadow-[0_2px_4px_rgba(0,0,0,0.3)]">
+                  <div className="text-4xl font-extrabold font-display text-amber-400 drop-shadow-[0_4px_10px_rgba(0,0,0,0.4)]">
                     <AnimatedCounter value={stat.value} suffix={stat.suffix} />
                   </div>
-                  <div className="text-sm font-medium text-white/80">
+                  <div className="text-sm font-semibold text-white drop-shadow-sm">
                     {stat.label}
                   </div>
                   {i < stats.length - 1 && (
