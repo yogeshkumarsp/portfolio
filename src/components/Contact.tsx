@@ -39,7 +39,7 @@ const Contact = () => {
   const inputClasses = "w-full px-4 py-3.5 bg-background border border-border rounded-xl text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary/50 transition-all duration-200";
 
   return (
-    <section id="contact" className="py-20 lg:py-28 bg-card relative overflow-hidden">
+    <section id="contact" className="py-16 lg:py-20 scroll-mt-20 bg-card relative overflow-hidden">
       <div className="absolute top-0 left-1/2 w-96 h-96 bg-primary/5 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2" />
 
       <div className="container relative mx-auto px-4 sm:px-6 lg:px-8">

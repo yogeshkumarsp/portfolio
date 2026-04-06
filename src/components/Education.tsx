@@ -27,7 +27,7 @@ const educationData = [
 
 const Education = () => {
   return (
-    <section id="education" className="py-20 lg:py-28 bg-card relative overflow-hidden">
+    <section id="education" className="py-16 lg:py-20 scroll-mt-20 bg-card relative overflow-hidden">
       <div className="absolute top-1/2 left-0 w-64 h-64 bg-primary/5 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2" />
 
       <div className="container relative mx-auto px-4 sm:px-6 lg:px-8">
