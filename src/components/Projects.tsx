@@ -22,6 +22,7 @@ const projects = [
     description:
       "Intelligent agent that automates B2B lead generation, prospect research, and personalized outreach at scale.",
     tags: ["AI Agent", "Automation", "B2B"],
+    link: "https://b2b-lead-generator-and-outreach-age.vercel.app/",
   },
 ];
 
