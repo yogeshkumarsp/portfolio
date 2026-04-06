@@ -212,7 +212,7 @@ const Hero = () => {
                   <div className="text-4xl font-extrabold font-display text-amber-400 drop-shadow-[0_4px_10px_rgba(0,0,0,0.4)]">
                     <AnimatedCounter value={stat.value} suffix={stat.suffix} />
                   </div>
-                  <div className="text-sm font-semibold text-white drop-shadow-sm">
+                  <div className="text-sm font-bold uppercase tracking-widest text-black drop-shadow-sm">
                     {stat.label}
                   </div>
                   {i < stats.length - 1 && (
