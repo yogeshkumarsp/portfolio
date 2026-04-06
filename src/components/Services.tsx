@@ -41,7 +41,7 @@ const services = [
 
 const Services = () => {
   return (
-    <section id="services" className="py-16 lg:py-20 scroll-mt-20 bg-card relative overflow-hidden">
+    <section id="services" className="pt-0 lg:pt-0 pb-16 lg:pb-20 scroll-mt-16 bg-card relative overflow-hidden">
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl translate-x-1/2 translate-y-1/2" />
 
       <div className="container relative mx-auto px-4 sm:px-6 lg:px-8">

@@ -36,7 +36,7 @@ const skillCategories = [
 
 const Skills = () => {
   return (
-    <section id="skills" className="py-16 lg:py-20 scroll-mt-20 relative overflow-hidden">
+    <section id="skills" className="pt-0 lg:pt-0 pb-16 lg:pb-20 scroll-mt-16 relative overflow-hidden">
       <div className="absolute top-0 right-0 w-80 h-80 bg-accent/5 rounded-full blur-3xl" />
 
       <div className="container relative mx-auto px-4 sm:px-6 lg:px-8">
